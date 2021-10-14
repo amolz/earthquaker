@@ -1,0 +1,28 @@
+Package: earthquaker
+Type: Package
+Title: MSDR Capstone To Clean And Plot NOAA Earthquake Data
+Version: 0.1.0
+Author: person("A", "Z", role = c("aut", "cre"))
+Maintainer: author name <author@email.com>
+Description: Coursera R Capstone Project. NOAA dataset has historic earthquake occurence information.
+    This package provides functions & geoms to clean the raw dataset and visualize the plots
+    for selected countries on a timeline. It also offers functions to plot the earthquake
+    epicenters on a map for spatial viaualization.
+License: GPL-3
+Encoding: UTF-8
+LazyData: TRUE
+Imports:
+    ggplot2,
+    grid,
+    scales,
+    dplyr,
+    tidyr,
+    readr,
+    stringr,
+    leaflet,
+    lubridate,
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.1.2
