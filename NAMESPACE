@@ -1,1 +1,16 @@
 exportPattern("^[[:alpha:]]+")
+
+export("eq_location_clean")
+export("eq_clean_data")
+export("geom_timeline")
+export("geom_timeline)label")
+export("eq_create_label")
+export("eq_map")
+
+import(ggplot2)
+import(leaflet)
+import(grid)
+importFrom("tidyr","separate")
+importFrom("stringr", "str_trim")
+importFrom("lubridate","make_date")
+importFrom("dplyr","mutate","arrange")
