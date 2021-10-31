@@ -151,6 +151,6 @@ eq_map(annot_col = "popup_text")
 Map2
 ```
 A sample view is shown below:
-<img src="eq_map_popup.png" width="960" height="510" />
+<img src="eq_map_popup.PNG" width="960" height="510" />
 
 
